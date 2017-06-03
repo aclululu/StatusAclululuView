@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="status_contain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="status_iv">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <style name="status_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="status_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+    <!-- av动画加载 start-->
+
+    <style name="AVLoadingIndicatorView">
+        <item name="avminWidth">48dip</item>
+        <item name="avmaxWidth">48dip</item>
+        <item name="avminHeight">48dip</item>
+        <item name="avmaxHeight">48dip</item>
+        <item name="avindicatorName">PacmanIndicator</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView.Large">
+        <item name="avminWidth">76dip</item>
+        <item name="avmaxWidth">76dip</item>
+        <item name="avminHeight">76dip</item>
+        <item name="avmaxHeight">76dip</item>
+        <item name="avindicatorName">PacmanIndicator</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="avminWidth">24dip</item>
+        <item name="avmaxWidth">24dip</item>
+        <item name="avminHeight">24dip</item>
+        <item name="avmaxHeight">24dip</item>
+        <item name="avindicatorName">PacmanIndicator</item>
+    </style>
+    <!-- av动画加载 over-->
+
+
+</resources>

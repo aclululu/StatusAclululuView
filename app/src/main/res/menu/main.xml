@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/content"
+        android:orderInCategory="100"
+        android:title="内容" />
+    <item
+        android:id="@+id/error"
+        android:orderInCategory="100"
+        android:title="加载错误" />
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="100"
+        android:title="空数据" />
+    <item
+        android:id="@+id/progress"
+        android:orderInCategory="100"
+        android:title="加载" />
+    <item
+        android:id="@+id/nonetwork"
+        android:orderInCategory="100"
+        android:title="无网络" />
+    <item
+        android:id="@+id/custom"
+        android:orderInCategory="100"
+        android:title="自定义" />
+
+
+</menu>

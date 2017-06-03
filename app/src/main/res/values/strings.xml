@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StatusAclululuView</string>
+    <string name="status_error">对不起，加载失败</string>
+    <string name="status_retry">重新加载</string>
+    <string name="status_loaddddding">正在加载...</string>
+    <string name="status_content_empty">未发现任何数据~~</string>
+    <string name="status_no_network">未发现可用网络~</string>
+</resources>

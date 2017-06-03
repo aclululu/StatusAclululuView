@@ -1,0 +1,45 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:id="@+id/status_contain"
+        style="@style/status_contain"
+        android:visibility="gone"
+        tools:visibility="visible"
+        >
+
+        <com.fssoft.customprogress.AVLoadingIndicatorView
+            android:id="@+id/status_av"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AVLoadingIndicatorView.Large"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:avindicatorName="PacmanIndicator"
+            app:avindicatorColor="@color/colorAccent"
+            />
+
+        <ImageView
+            android:id="@+id/status_iv"
+            app:srcCompat="@drawable/ic_error"
+            style="@style/status_iv"
+            />
+
+        <TextView
+            android:id="@+id/status_tv"
+            android:text="@string/status_error"
+            style="@style/status_tv"
+            />
+
+        <Button
+            android:id="@+id/status_btn"
+            android:text="@string/status_retry"
+            style="@style/status_btn"
+            />
+
+    </LinearLayout>
+
+</merge>

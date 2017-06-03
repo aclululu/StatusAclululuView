@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9c27b0</color>
+    <color name="colorPrimaryDark">#7b1fa2</color>
+    <color name="colorAccent">#00796B</color>
+    <color name="colorControlNormal">#ea80fc</color>
+    <color name="colorControlActivated">#aa00ff</color>
+    <color name="colorSwitchThumbNormal">#ea80fc</color>
+</resources>
